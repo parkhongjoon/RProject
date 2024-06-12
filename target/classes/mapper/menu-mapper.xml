@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.pk.dao.MenuMapper">
+
+  <sql id="menuColumn">
+     business,
+     m_name,
+     m_cost,
+     m_intro,
+     m_code,
+     imnum
+  </sql>
+
+  
+  <insert id="menuInsert" parameterType="menuDto" useGeneratedKeys="true" keyProperty="id">
+     INSERT INTO menu(<include refid="menuColumn"/>) values (
+     
+       #{business},
+       #{m_name},
+       #{m_cost},
+       #{m_intro},
+       #{m_code},
+       #{imnum}
+   
+     )
+  </insert>
+
+  <update id="updateRefId" parameterType="int">
+     UPDATE menu SET refid = #{id} WHERE id=#{id}
+  </update>
+
+  <update id="updateRenum" parameterType="hashMap">
+     UPDATE menu SET renum = renum + 1 WHERE renum >= #{renum} and refid = #{refid}
+  </update>
+
+  <update id="menuUpdate" parameterType="menuDto">
+     UPDATE menu 
+     SET
+        business = #{business},
+        m_name = #{m_name},
+        m_cost = #{m_cost},
+        m_intro = #{m_intro}
+     WHERE
+        id=#{id}   
+  </update>
+  
+  <delete id="menuDelete" parameterType="int">
+     DELETE FROM menu
+     WHERE
+       id=#{selectId}  
+  </delete>
+  
+  <select id="selectMenuCount" resultType="int" parameterType="hashMap" >
+     SELECT
+       COUNT(*)
+     FROM
+       menu
+         WHERE 1 = 1
+    <if test="searchname != '' and searchvalue != null and searchvalue != ''">
+       <choose>    
+          <when test="searchname != '' and searchvalue != null and searchvalue != ''">
+             AND m_name LIKE CONCAT('%', #{searchvalue}, '%')
+          </when>
+          <otherwise>
+             AND m_cost LIKE CONCAT('%', #{searchvalue}, '%')
+          </otherwise>
+       </choose>
+    </if>
+    <if test="business != null and business != ''">
+        AND business = #{business}
+    </if>
+
+  </select>
+  
+  
+  <select id="menuList" resultType="menuDto" parameterType="hashMap"> <!-- business값이 있을 때 없을 때로 구분 -->
+       SELECT * 
+    FROM 
+       menu
+    WHERE 1 = 1
+    <if test="searchname != ''">
+       <choose>    
+          <when test="searchname == 'm_name'">
+             AND m_name LIKE CONCAT('%', #{searchvalue}, '%')
+          </when>
+          <otherwise>
+             AND m_cost LIKE CONCAT('%', #{searchvalue}, '%')
+          </otherwise>
+       </choose>
+    </if>
+    <if test="business != null and business != ''">
+        AND business = #{business}
+    </if>
+    ORDER BY id DESC
+    LIMIT #{currentPage}, #{listCount}
+  </select>  
+
+
+   
+  <select id="mSelectDetail" resultType="menuDto" parameterType="int">
+     SELECT * FROM menu WHERE id= #{selectId}
+  </select>
+ 
+  <update id="increaseHit" parameterType="int">
+     UPDATE menu SET hit = hit + 1 WHERE id=#{selectId}
+  </update>
+	
+    <select id="mValidateBusiness" resultType="int" parameterType="hashMap">
+     SELECT count(*) FROM menu WHERE id=#{id} and business=#{business}
+ 	</select>	
+
+
+</mapper>

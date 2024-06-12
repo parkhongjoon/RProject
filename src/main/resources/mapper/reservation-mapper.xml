@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "//mybatis.org/DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="reservation"> 
+
+<!-- 전체 -->
+
+    <select id="AllCount" resultType="int">
+        select count(*) from reservation where userid = #{userid}
+    </select>
+	
+<!-- 방문예정 -->
+
+    <select id="resCount" resultType="int">
+        select count(*) from reservation where userid = #{userid} and role=1
+    </select>
+
+<!-- 방문완료 -->
+
+    <select id="RCount" resultType="int">
+        select count(*) from reservation where userid = #{userid} and role=2
+    </select>
+
+<!-- 리뷰보기 -->
+
+    <select id="VCount" resultType="int">
+        select count(*) from reservation where userid = #{userid} and role=3
+    </select>
+    
+
+<!-- 취소 -->
+
+    <select id="CCount" resultType="int">
+        select count(*) from reservation where userid = #{userid} and role=4
+    </select>
+  
+
+    
+    <select id="resList" resultType="com.pk.dto.ReservationDto">
+    	select * from reservation where userid = #{userid} order by role
+    </select>
+
+</mapper>
