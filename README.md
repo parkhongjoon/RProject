@@ -1,4 +1,5 @@
 # RProject
+<div>
     <table border="1" align="center">
         <thead>
             <tr>
@@ -35,3 +36,5 @@
             </tr>
         </tbody>
     </table>
+</div>
+
