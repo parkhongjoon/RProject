@@ -3,10 +3,16 @@
 <h2>소개</h2>
     김포 이젠학원에서 팀원들과 같이 협업 한 작업물 입니다.
 
+<h2>Stacks </h2>
 
-    
+     <h2>Environment</h2>
+     Git, Github, Spring
+
+     <h2>Development</h2>
+     Css, Java, JavaScript, MySql, Figma
+
 <div>
-    <h2>화면</h2>
+    <h2>화면구성 예시</h2>
     <table border="1" align="center">
         <thead>
             <tr>
