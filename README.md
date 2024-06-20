@@ -1,8 +1,10 @@
 # RProject
 <div class="container">
+<h2>소개</h2>
+    김포 이젠학원에서 팀원들과 같이 협업 한 작업물 입니다.
 
 
-
+    
 <div>
     <h2>화면</h2>
     <table border="1" align="center">
