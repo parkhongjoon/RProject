@@ -4,11 +4,11 @@
 
 <h2>Stacks </h2>
 
-    Environment
-Git, Github, Spring
++Environment
+    +Git, Github, Spring
 
-    Development
-Css, Java, JavaScript, MySql, Figma
++Development
+    +Css, Java, JavaScript, MySql, Figma
 
 <div>
     <h2>화면구성 예시</h2>
