@@ -13,6 +13,7 @@
 + Development
     * <img src="https://github.com/parkhongjoon/RProject/blob/main/img/java.svg" alt="java">
     * <img src="https://github.com/parkhongjoon/RProject/blob/main/img/js.svg" alt="js">
+    * <img src="https://github.com/parkhongjoon/RProject/blob/main/img/jq.svg" alt="jq">
     * <img src="https://github.com/parkhongjoon/RProject/blob/main/img/css.svg" alt="css">
     * <img src="https://github.com/parkhongjoon/RProject/blob/main/img/sql.svg" alt="sql">
 
