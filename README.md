@@ -3,7 +3,7 @@
 
 
 
-
+<div>
     <h2>화면</h2>
     <table border="1" align="center">
         <thead>
@@ -36,5 +36,6 @@
             </tr>
         </tbody>
     </table>
+</div>
 </div>
 
