@@ -5,11 +5,17 @@
 <h2>Stacks </h2>
 
 + Environment
-    * Git, Github, Spring
-    *  <img src="https://github.com/parkhongjoon/RProject/blob/main/img/css.svg" alt="css">
+    * Spring, Github, Git
+    *  <img src="https://github.com/parkhongjoon/RProject/blob/main/img/spring.svg" alt="spring">
+    *  <img src="https://github.com/parkhongjoon/RProject/blob/main/img/github.svg" alt="github">
+    *  <img src="https://github.com/parkhongjoon/RProject/blob/main/img/git.svg" alt="git">
 
 + Development
-    * Css, Java, JavaScript, MySql, Figma
+    * Java, JavaScript, Css, MySql
+    * <img src="https://github.com/parkhongjoon/RProject/blob/main/img/java.svg" alt="java">
+    * <img src="https://github.com/parkhongjoon/RProject/blob/main/img/js.svg" alt="js">
+    * <img src="https://github.com/parkhongjoon/RProject/blob/main/img/css.svg" alt="css">
+    * <img src="https://github.com/parkhongjoon/RProject/blob/main/img/sql.svg" alt="sql">
 
 <div>
     <h2>화면구성 예시</h2>
