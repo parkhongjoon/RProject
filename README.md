@@ -18,5 +18,5 @@
   <img src="https://github.com/parkhongjoon/RProject/blob/main/img/사용자3.png" alt="">
   <img src="https://github.com/parkhongjoon/RProject/blob/main/img/사용자4 예약없음.png" alt="">
   <img src="https://github.com/parkhongjoon/RProject/blob/main/img/사용자4 예약 유.png" alt="">
-  <img src="https://github.com/parkhongjoon/RProject/blob/main/img/사용자4 예약 유2.png" alt="">
+  <img src="https://github.com/parkhongjoon/RProject/blob/main/img/사용자4 예약 유 2.png" alt="">
 </div>
