@@ -4,10 +4,10 @@
 
 <h2>Stacks </h2>
 
-<h2>Environment</h2>
+    Environment
 Git, Github, Spring
 
-<h2>Development</h2>
+    Development
 Css, Java, JavaScript, MySql, Figma
 
 <div>
