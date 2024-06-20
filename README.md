@@ -6,13 +6,11 @@
 <h2>Stacks </h2>
 
 + Environment
-    * Spring, Github, Git
     *  <img src="https://github.com/parkhongjoon/RProject/blob/main/img/spring.svg" alt="spring">
     *  <img src="https://github.com/parkhongjoon/RProject/blob/main/img/github.svg" alt="github">
     *  <img src="https://github.com/parkhongjoon/RProject/blob/main/img/git.svg" alt="git">
 
 + Development
-    * Java, JavaScript, Css, MySql
     * <img src="https://github.com/parkhongjoon/RProject/blob/main/img/java.svg" alt="java">
     * <img src="https://github.com/parkhongjoon/RProject/blob/main/img/js.svg" alt="js">
     * <img src="https://github.com/parkhongjoon/RProject/blob/main/img/css.svg" alt="css">
