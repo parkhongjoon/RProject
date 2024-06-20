@@ -28,7 +28,6 @@
                     <img src="https://github.com/parkhongjoon/RProject/blob/main/img/사용자3.png" width="600" height="300" alt="사용자3">
                     <img src="https://github.com/parkhongjoon/RProject/blob/main/img/사용자4 예약없음.png" width="600" height="300" alt="사용자4 예약없음">
                     <img src="https://github.com/parkhongjoon/RProject/blob/main/img/사용자4 예약 유.png" width="600" height="300" alt="사용자4 예약 유">
-                    <img src="https://github.com/parkhongjoon/RProject/blob/main/img/사용자4 예약 유 2.png" width="600" height="300" alt="사용자4 예약 유 2">
                 </td>
             </tr>
         </tbody>
