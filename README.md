@@ -1,23 +1,37 @@
 # RProject
-<div>
-  <h3>회원가입</h3>
-  <img src="https://github.com/parkhongjoon/RProject/blob/main/img/회원가입1.png" width="600" height="400">
-  <img src="https://github.com/parkhongjoon/RProject/blob/main/img/회원가입2.png" width="600" height="400">
-  <img src="https://github.com/parkhongjoon/RProject/blob/main/img/회원가입3.png" width="600" height="400">
-  <h3>로그인</h3>
-  <img src="https://github.com/parkhongjoon/RProject/blob/main/img/로그인1.png" alt="">
-  <h3>관리자</h3>
-  <img src="https://github.com/parkhongjoon/RProject/blob/main/img/관리자1.png" alt="">
-  <img src="https://github.com/parkhongjoon/RProject/blob/main/img/관리자2.png" alt="">
-  <img src="https://github.com/parkhongjoon/RProject/blob/main/img/관리자3.png" alt="">
-  <img src="https://github.com/parkhongjoon/RProject/blob/main/img/관리자4.png" alt="">
-  <h3>사용자</h3>
-  <img src="https://github.com/parkhongjoon/RProject/blob/main/img/사용자1.png" alt="">
-  <img src="https://github.com/parkhongjoon/RProject/blob/main/img/사용자2.png" alt="">
-  <img src="https://github.com/parkhongjoon/RProject/blob/main/img/사용자3.png" alt="">
-  <img src="https://github.com/parkhongjoon/RProject/blob/main/img/사용자4 예약없음.png" alt="">
-  <img src="https://github.com/parkhongjoon/RProject/blob/main/img/사용자4 예약 유.png" alt="">
-  <img src="https://github.com/parkhongjoon/RProject/blob/main/img/사용자4 예약 유 2.png" alt="">
-</div>
-</body>
-</html>
+    <table border="1" align="center">
+        <thead>
+            <tr>
+                <th align="center">회원가입</th>
+                <th align="center">로그인</th>
+                <th align="center">관리자</th>
+                <th align="center">사용자</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td align="center">
+                    <img src="https://github.com/parkhongjoon/RProject/blob/main/img/회원가입1.png" width="300" height="200" alt="회원가입1">
+                    <img src="https://github.com/parkhongjoon/RProject/blob/main/img/회원가입2.png" width="300" height="200" alt="회원가입2">
+                    <img src="https://github.com/parkhongjoon/RProject/blob/main/img/회원가입3.png" width="300" height="200" alt="회원가입3">
+                </td>
+                <td align="center">
+                    <img src="https://github.com/parkhongjoon/RProject/blob/main/img/로그인1.png" width="300" height="200" alt="로그인1">
+                </td>
+                <td align="center">
+                    <img src="https://github.com/parkhongjoon/RProject/blob/main/img/관리자1.png" width="300" height="200" alt="관리자1">
+                    <img src="https://github.com/parkhongjoon/RProject/blob/main/img/관리자2.png" width="300" height="200" alt="관리자2">
+                    <img src="https://github.com/parkhongjoon/RProject/blob/main/img/관리자3.png" width="300" height="200" alt="관리자3">
+                    <img src="https://github.com/parkhongjoon/RProject/blob/main/img/관리자4.png" width="300" height="200" alt="관리자4">
+                </td>
+                <td align="center">
+                    <img src="https://github.com/parkhongjoon/RProject/blob/main/img/사용자1.png" width="300" height="200" alt="사용자1">
+                    <img src="https://github.com/parkhongjoon/RProject/blob/main/img/사용자2.png" width="300" height="200" alt="사용자2">
+                    <img src="https://github.com/parkhongjoon/RProject/blob/main/img/사용자3.png" width="300" height="200" alt="사용자3">
+                    <img src="https://github.com/parkhongjoon/RProject/blob/main/img/사용자4 예약없음.png" width="300" height="200" alt="사용자4 예약없음">
+                    <img src="https://github.com/parkhongjoon/RProject/blob/main/img/사용자4 예약 유.png" width="300" height="200" alt="사용자4 예약 유">
+                    <img src="https://github.com/parkhongjoon/RProject/blob/main/img/사용자4 예약 유 2.png" width="300" height="200" alt="사용자4 예약 유 2">
+                </td>
+            </tr>
+        </tbody>
+    </table>
