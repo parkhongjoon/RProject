@@ -1,7 +1,7 @@
 # RProject
 <div>
   <h3>회원가입</h3>
-  <img src="https://github.com/parkhongjoon/RProject/blob/main/img/회원가입1.png" alt="" style="wioth: 500px;">
+  <img src="https://github.com/parkhongjoon/RProject/blob/main/img/회원가입1.png" alt="" style="wioth: 100px;">
   <img src="https://github.com/parkhongjoon/RProject/blob/main/img/회원가입2.png" alt="">
   <img src="https://github.com/parkhongjoon/RProject/blob/main/img/회원가입3.png" alt="">
   <h3>로그인</h3>
