@@ -1,5 +1,5 @@
 # RProject
 
 <div>
-  <img src="https://github.com/parkhongjoon/RProject/blob/main/src/main/webapp/resources/images/main.png" alt="">
+  <h1>RoadProject</h1>
 </div>
