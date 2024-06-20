@@ -3,8 +3,7 @@
     <table border="1" align="center">
         <thead>
             <tr>
-                <th align="center">회원가입</th>
-                <th align="center">로그인</th>
+                <th align="center">회원가입,로그인</th>
                 <th align="center">관리자</th>
                 <th align="center">사용자</th>
             </tr>
@@ -12,12 +11,10 @@
         <tbody>
             <tr>
                 <td align="center">
-                    <img src="https://github.com/parkhongjoon/RProject/blob/main/img/회원가입1.png" width="300" height="200" alt="회원가입1">
-                    <img src="https://github.com/parkhongjoon/RProject/blob/main/img/회원가입2.png" width="300" height="200" alt="회원가입2">
-                    <img src="https://github.com/parkhongjoon/RProject/blob/main/img/회원가입3.png" width="300" height="200" alt="회원가입3">
-                </td>
-                <td align="center">
-                    <img src="https://github.com/parkhongjoon/RProject/blob/main/img/로그인1.png" width="300" height="200" alt="로그인1">
+                    <img src="https://github.com/parkhongjoon/RProject/blob/main/img/회원가입1.png" width="600" height="200" alt="회원가입1">
+                    <img src="https://github.com/parkhongjoon/RProject/blob/main/img/회원가입2.png" width="700" height="200" alt="회원가입2">
+                    <img src="https://github.com/parkhongjoon/RProject/blob/main/img/회원가입3.png" width="500" height="200" alt="회원가입3">
+                    <img src="https://github.com/parkhongjoon/RProject/blob/main/img/로그인1.png" width="500" height="200" alt="로그인1">
                 </td>
                 <td align="center">
                     <img src="https://github.com/parkhongjoon/RProject/blob/main/img/관리자1.png" width="300" height="200" alt="관리자1">
