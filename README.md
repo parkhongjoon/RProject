@@ -9,6 +9,7 @@
     *  <img src="https://github.com/parkhongjoon/RProject/blob/main/img/spring.svg" alt="spring">
     *  <img src="https://github.com/parkhongjoon/RProject/blob/main/img/github.svg" alt="github">
     *  <img src="https://github.com/parkhongjoon/RProject/blob/main/img/git.svg" alt="git">
+    *  https://img.shields.io/badge/WSL-0a97f5?style=for-the-badge&logo=linux&logoColor=white
 
 + Development
     * <img src="https://github.com/parkhongjoon/RProject/blob/main/img/java.svg" alt="java">
