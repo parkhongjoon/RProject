@@ -6,10 +6,11 @@
 <h2>Stacks </h2>
 
 + Environment
-    *  <img src="https://github.com/parkhongjoon/RProject/blob/main/img/spring.svg" alt="spring">
+    *  <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white">
     *  <img src="https://github.com/parkhongjoon/RProject/blob/main/img/github.svg" alt="github">
     *  <img src="https://github.com/parkhongjoon/RProject/blob/main/img/git.svg" alt="git">
-    *  <img src="https://img.shields.io/badge/WSL-0a97f5?style=for-the-badge&logo=linux&logoColor=white" alt="a">
+    *  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="figma">
+    
 "
 + Development
     * <img src="https://github.com/parkhongjoon/RProject/blob/main/img/java.svg" alt="java">
