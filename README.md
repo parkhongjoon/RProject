@@ -20,7 +20,7 @@
     * <img src="https://github.com/parkhongjoon/RProject/blob/main/img/sql.svg" alt="sql">
 
 <div>
-    <h2>화면구성 예시</h2>
+    <h2>화면구성 예시📺</h2>
     <table border="1" align="center">
         <thead>
             <tr>
